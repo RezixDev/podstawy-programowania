@@ -192,9 +192,35 @@ https://stackoverflow.com/questions/61168525/why-does-system-out-println-in-java
 
 W moim doświadczeniu odpowiedzi na StackOverflow są lepsze, gdyż są bardziej techniczne i więcej się można z nich nauczyć. Natomiast odpowedzi na Reddicie dobrze wprowadzają do tematu, bądź dzielą się innymi źródłami, które próbują rozwiązać problem autora. 
 
+### Tworzenie Konceptu 
 
+No spoko, mamy nasze działające IDE (środowisko programistyczne), co dalej?
 
+Naturą byłoby spytać się ChatGPT o wygenerowanie kodu. Co w sumie byłoby prostym sposobem na podejście do problemu... ale przez to się niczego nie nauczymy. 
+Na początku nauki jest ważne nauczyć się tego myślenia, a nie oddawać myślenie maszynie. 
 
+Przeanalizujmy w takim razie wcześniej wspominany przeze mnie artykuł na forum: https://forum.tibia.pl/showthread.php?t=109721
+
+Naszym pierwszym zadaniem jest stworzyć coś działajacego. Cokolwiek. Potem możemy nasz koncept polepszyć. 
+
+W artykule na forum mamy bardzo prosty przykład:
+
+```
+Nazwisko rodowe wojownika, powinno składać się z dwóch członów, i obrazować najważniejszą cechę naszego przyszłego bohatera.
+Przypuśćmy, że będziemy chcieli wpakować dużo czasu i pracy w rozwój siły fizycznej oraz używać w walce tylko młotów. Wyszukujemy więć wszelkie słowa klucze, które mogły by nam się przydać, np:
+hammer - młot
+stone - kamień
+rock - skała
+fist - pięść
+strength - siła
+itp.
+
+Następnie wybieramy dwa z nich i łączymy w parę. Tak uzyskujemy kilka nazwisk:
+Stonehammer - Kamienny Młot
+Stonefist - Kamienna Pięść
+Hammerstrenght - Siła Młota
+Hammerrock - Młocia Skała
+```
 
 
 
