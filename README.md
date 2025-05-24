@@ -222,6 +222,7 @@ Hammerstrenght - Siła Młota
 Hammerrock - Młocia Skała
 ```
 
+Tutaj jak widzimy, z połączenia dwóch słów i powiększenia pierwszej litery orzymamy przykładowe imię dla postaci.
 
 
 
