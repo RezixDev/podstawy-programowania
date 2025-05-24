@@ -89,7 +89,8 @@ Motywacją było z pewnością to, że program, który piszę przydałby się ni
 
 Tak więc zainstalowałem ponownie Eclipse i stworzyłem nowy projekt:
 
-<img width="793" alt="image" src="https://github.com/user-attachments/assets/f8f62d17-eb22-4557-b270-cd386734970d" />
+<img width="788" alt="image" src="https://github.com/user-attachments/assets/152ee30a-5c83-4394-b591-01276c2df2eb" />
+
 
 
 
