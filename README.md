@@ -91,6 +91,31 @@ Tak więc zainstalowałem ponownie Eclipse i stworzyłem nowy projekt:
 
 <img width="788" alt="image" src="https://github.com/user-attachments/assets/152ee30a-5c83-4394-b591-01276c2df2eb" />
 
+Następnie w Eclipse prawy przycisk na folder "src" i stworzyłem nową klasę o nazwie: "NameGenerator"
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/eeb1cba3-4620-4e07-b7b1-9dc79ab6c00e" />
+
+Dodałem naszego legendarnego public static void main'a, a w nim funkcję printowania (wyświetlania teksty w konsoli).
+
+```
+package nameGenerator;
+
+public class NameGenerator {
+	public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+Skompilowałem... i sukces. 
+
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/5147caa6-d718-44f7-b75c-cde377d5bd53" />
+
+Program działa i się kompiluje.
+
+Skonfigurowanie środowiska w taki sposób, aby działało jest jednym z ważniejszych umiejętności jako programista. 
+
+Jeżeli macie problemy, bo jesteście na innym systemie, bądź wasz komputer sprawia problemy, to musicie wiedzieć co zrobić, aby wasz program poprawnie kompilował to co do niego wprowadziliście. Google, ChatGPT, spytanie się Discordzie może często pomóc w takich problemach. To jest jedno z tych pytań, o które warto czasem poprosić o pomoc :)
+
 
 
 
