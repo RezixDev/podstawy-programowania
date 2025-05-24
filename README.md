@@ -33,6 +33,57 @@ Jeżeli nauczycie się opisywać swój problem i będziecie wiedzieli, gdzie zad
 
 Oczywiście przed zadaniem pytania powinniście sami najpierw trochę dać z siebie wysiłku i spróbować rozwiązać problem (czy to z Google, czy z ChatGPT) i dopiero jako ostatnią deskę ratunku użyć pytania do przyjaciela (Forum, Q&A, Discord, Github Issues, ChatGPT). Społeczności programistyczne są bardzo pomocne, jeżeli macie trochę kultury i nie zadajecie głupich pytań w stylu "od czego zacząć naukę programowania". 
 
+## Strony internetowe to nie wszystko
+
+W 2008 roku miałem już stworzone kilka stron internetowych (słabej jakości, ale od czegoś trzeba było zacząć). Jedna o piłce nożnej, druga o grach komputerowych, trzecia o trikach z piłką (Freestyle Football). Jednakże statyczne przekazywanie treści ze strony serwera do klienta bardzo szybko zaczęło mnie nudzić. Cięcie szablonów w photoshopie i klejenie stron używając "src=" w co drugim divie nie należało w tamtych czasach do najprzyjemniejszych. 
+
+Jako że Facebook nabierał na popularności i strona ta była o wiele bardziej dynamiczniejsza postanowiłem poszerzyć swoją wiedzę. 
+W nadzieji, że może nowy język i nauka od podstaw programowania coś zmieni, pożyczyłem wtedy książkę od znajomego. Prawdopodobnie kultową dziś już "Symfonię C++" Jerzego Grębosza. 
+
+Nauka od początku nie należała do najprzyjemniejszych, bo jednak kopiowanie skryptów z tutoriala, czy z różnego rodzaju forum było łatwiejsze, niż faktyczna próba zrozumienia materiału. Przerabiałem też materiały w internecie jak https://cpp0x.pl/ Ale moja umiejętność programowania nie stawała się lepsza.
+Poza zrozumieniem kilku funkcji i umiejętności nauczenia się jak działa pętla, wciąż nie umiałem nic sam stworzyć od podstaw. Dałem sobie wtedy spokój z programowaniem w nadzieji, że może w technikum informatycznym nauczyciele mnie wszystkiego nauczą. 
+
+### 2011 rok
+
+W technikum nie nauczyłem się więcej, niż sam umiałem. Turbo Pascal, C++, Java, C... Niby umiałem coraz to więcej składni, ale poza prostymi programami, nie byłem w stanie stworzyć niczego własnego. 
+
+Próbowałem wtedy się motywować na różnego rodzaju sposoby. Czytałem wtedy nowo-wydaną biografię Steva Jobsa, kolejne źródła i zakładki w przeglądarce stawały się coraz większe. Tutorial za tutorialem przerabiałem jak tworzyć gry. Zaczynając od GameMakera, na Unity i CryEngine kończąc.
+
+Niby pisałem kod, ale nie rozumiałem jak on działa i co się dzieje pod maską. Im więcej wiedziałem, tym miałem wrażenie, że umiem coraz mniej.
+
+Na studiach byłem w stanie pisać jakieś proste programy, ale logika i jak ze sobą komponenty współgrają były dla mnie czarną magią. 
+
+#### 2017 Rok, olśnienie
+
+Do tego czasu miałem naprawdę dużo problemów na studiach. Pisanie coraz to bardziej skomplikowanych programów sprawiały mi taki problem, że byłem zmuszony te studia rzucić, a próba pracy w firmach często kończyła się ze względu posiadanych przeze mnie kwalifikacji zwolnieniem. 
+
+##### Czy ja naprawdę się do tego nie nadaję? Czy powinienem rzucić programowanie i poszukać czegoś innego?
+
+Dopiero jakoś w 2017 roku książka: "Think Like a Programmer: An Introduction to Creative Problem Solving", która była w Humble Bundle pozwoliła mi zrozumieć programowanie. Brzmi to trochę irocznie, ale do tego czasu tak dużo się naczytałem o programowaniu, ale nie byłem w stanie napisać sam programu.
+
+Czemu?
+
+### Bo nie wiedziałem jak myśleć jak programista.
+
+Programowanie to nie tylko pisanie kodu... czy tam cyferek i literek. To sposób myślenia, łączenia funkcji, analizy działania i flow informacji.
+
+Żeby zrozumieć programowanie, nie można się porywać z motyką na słońce. Sparzycie się. Trzeba zacząć od podstaw. Żeby móc używać funckji, trzeba najpierw zrozumieć zasadę ich działania. Co robi dana funkcja? Czy może się ona łączyć z innymi funkcjami? Czy posiada ona specjalne właściwości?
+
+Jako że Java na studiach była językiem, który jako tako rozumiałem to postanowiłem zrozumieć co dokładnie robią dane funkcje. Nie z książek, a przez eksperymenty. 
+Sam doświadczyć co się stanie, jak wywołamy funkcję, to co pojawi się na ekranie?
+
+## Nauka przez eksperymenty
+
+Zdecydowałem wtedy przeznaczyć 1 godzinę dzienne na naukę programowania (a dokładniej rzecz mówiąc na eksperymenty)
+
+
+
+
+
+
+
+
+
 
 
 
