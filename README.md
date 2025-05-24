@@ -157,7 +157,7 @@ Moja ciekawość stawała się coraz większa. Miałem wewnętrzną potrzebę zr
 W tym przypadku pomocne było odniesienie się do dokumentacji i czytania odpowiedzi bardziej doświadczonych osób na StackOverflow:
 https://docs.oracle.com/javase/8/docs/api/java/lang/System.html
 
-````
+```
 public final class System
 extends Object
 The System class contains several useful class fields and methods. It cannot be instantiated.
