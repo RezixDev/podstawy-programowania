@@ -116,10 +116,81 @@ Skonfigurowanie środowiska w taki sposób, aby działało jest jednym z ważnie
 
 Jeżeli macie problemy, bo jesteście na innym systemie, bądź wasz komputer sprawia problemy, to musicie wiedzieć co zrobić, aby wasz program poprawnie kompilował to co do niego wprowadziliście. Google, ChatGPT, spytanie się Discordzie może często pomóc w takich problemach. To jest jedno z tych pytań, o które warto czasem poprosić o pomoc :)
 
+#### Przykład jak rozwiązywać problemy. 
 
+Pomyliliście się i zapomnieliście na końcu waszej funkcji napisać średnika (;) 
 
+Dostajecie taki Error (bład):
+```
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete BlockStatements
 
+	at nameGenerator/nameGenerator.NameGenerator.main(NameGenerator.java:5)
+```
 
+Kopiujecie jedynie górną część, czyli sam błąd: 
+"Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete BlockStatements" i wrzucacie w Google.
+
+ Jako, że Google nie zawsze znajduje to co potrzeba, pmocne może być skopiowanie źródła problemu: "Syntax error, insert ";" to complete BlockStatements"
+ Tu  macie przykładową odpowiedź na pytanie:
+ 
+ https://www.reddit.com/r/javahelp/comments/ifqdqq/help_with_syntax_error_insert_to_complete/
+
+Zapomnieliśmy gdzieś w naszym programie użyć średnika. 
+IDE będzie starało wam się podpowiedzieć czerwonym kolorem, gdzie moglibyście popełnić błąd:
+
+<img width="785" alt="image" src="https://github.com/user-attachments/assets/edafe0cd-b235-4f29-ada0-2ecd8ab61c57" />
+
+Dodanie średnika powinno rozwiązać wasz przykładowy problem. 
+
+Teraz wiecie, że w przyszłości, jeżeli znowu pojawi się wasz błąd, że gdzieś zapomnieliście użyć średnika w waszym programie.
+
+### Programowanie to nauka na błędach
+
+Im więcej tych błędów popełnicie, tym większa będzie wasza wiedza jak te błędy rozwiązać. 
+Z każdym błędem i każdym ich rozwiązaniem, będziecie stawać się coraz to lepszymi programistami. 
+
+Ale chwila... Niby spoko, mamy naszego Hello Worlda, ale co robi faktycznie nasz blok: "System.out.println("Hello, World!");"?
+Moja ciekawość stawała się coraz większa. Miałem wewnętrzną potrzebę zrozumienia co się dzieje pod maską języka.
+
+W tym przypadku pomocne było odniesienie się do dokumentacji i czytania odpowiedzi bardziej doświadczonych osób na StackOverflow:
+https://docs.oracle.com/javase/8/docs/api/java/lang/System.html
+
+````
+public final class System
+extends Object
+The System class contains several useful class fields and methods. It cannot be instantiated.
+Among the facilities provided by the System class are standard input, standard output, and error output streams; access to externally defined properties and environment variables; a means of loading files and libraries; and a utility method for quickly copying a portion of an array.
+```
+
+Jak widzimy z oficjalnej dokumentacji, Klasa System posiada kilka funkcji, które umożliwiają pokazywanie przez was treści, ale i też ich wprowadzanie. 
+
+Poza "out" istnieje jeszcze "in" oraz "err".
+Jest użyty tak zwany "PrintStream" (Strumieniowanie drukowania) https://docs.oracle.com/javase/8/docs/api/java/io/PrintStream.html
+
+A jedną z jego metod które możemy użyć jest "println"
+
+Jak się dowiadujemy z dokumentacji, nie tylko same stringi mogą być przekazane, ale też i liczby i wartości boolean (prawda/fałsz).
+
+Oraz, że poza samym "println" istnieje jeszcze "print", który nie posiada na końcu znaku nowej linni (enter) ("\n")Ö
+
+```
+public void println()
+Terminates the current line by writing the line separator string. The line separator string is defined by the system property line.separator, and is not necessarily a single newline character ('\n').
+```
+
+https://docs.oracle.com/javase/8/docs/api/java/io/PrintStream.html#println--
+
+Czasem odpowiedzi w dokumentacji mogą brzmieć zbyt skomplikowanie, bądź sucho, wtedy czasem warto zajrzeć na Reddita przez google wpisując na przykład:
+"what does "System.out.println" do?"
+
+Wtedy dostaniecie bardziej luźne odpowiedzi jak tutaj:
+
+https://www.reddit.com/r/learnjava/comments/xqa2i2/in_systemoutprintln_what_is_what_exactly/
+https://stackoverflow.com/questions/61168525/why-does-system-out-println-in-java-print-to-the-console
+
+W moim doświadczeniu odpowiedzi na StackOverflow są lepsze, gdyż są bardziej techniczne i więcej się można z nich nauczyć. Natomiast odpowedzi na Reddicie dobrze wprowadzają do tematu, bądź dzielą się innymi źródłami, które próbują rozwiązać problem autora. 
 
 
 
