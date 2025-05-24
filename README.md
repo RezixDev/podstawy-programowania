@@ -173,7 +173,7 @@ A jedną z jego metod które możemy użyć jest "println"
 
 Jak się dowiadujemy z dokumentacji, nie tylko same stringi mogą być przekazane, ale też i liczby i wartości boolean (prawda/fałsz).
 
-Oraz, że poza samym "println" istnieje jeszcze "print", który nie posiada na końcu znaku nowej linni (enter) ("\n")Ö
+Oraz, że poza samym "println" istnieje jeszcze "print", który nie posiada na końcu znaku nowej linii (enter) ("\n")
 
 ```
 public void println()
