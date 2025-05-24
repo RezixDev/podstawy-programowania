@@ -74,8 +74,22 @@ Sam doświadczyć co się stanie, jak wywołamy funkcję, to co pojawi się na e
 
 ## Nauka przez eksperymenty
 
-Zdecydowałem wtedy przeznaczyć 1 godzinę dzienne na naukę programowania (a dokładniej rzecz mówiąc na eksperymenty)
+Zdecydowałem wtedy przeznaczyć 1 godzinę dzienne na naukę programowania (a dokładniej rzecz mówiąc na eksperymenty).
 
+Jako że nie wiedziałem co zbytnio wtedy programować postanowiłem brać pomysły z tej listy:
+https://github.com/G-Anon/Challenge-info
+
+Zainstalowałem Eclipse i postanowiłem zakosić rękawy i wziąć się do działania. 
+Pierwszym zadaniem było stworzyć "Name Generator" (Generator Imion). Jako że kilka lat wcześniej byłem zapalonym tibijczykiem, to pamiętałem o tym wątku na forun tibia.pl : https://forum.tibia.pl/showthread.php?t=109721
+
+Autor tego poradnika przedstawił pewnego rodzaju algorytm, w jaki sposób można by było tworzyć imiona dla postaci w zależności od profesji. 
+Aby nasza postać możliwie jak najlepiej wpasowała się w klimat gry, lepiej nazwać naszego Rycerza w stylu jakiegoś wojownika jak "Braveheart", niż "Great Ferumbras". Ale po co kleić imiona na kartce papieru i myśleć co by najlepiej pasowało, jak można by stworzyć program, który wygeneruje to nasze imię za nas?
+
+Motywacją było z pewnością to, że program, który piszę przydałby się nie tylko mi, ale i innym graczom. A nawet by można było ten algorytm wykorzystać w grze, jeżeli bym tworzy w przyszłości grę RPG. Możliwości jego wykorzystania było wiele. 
+
+Tak więc zainstalowałem ponownie Eclipse i stworzyłem nowy projekt:
+
+<img width="793" alt="image" src="https://github.com/user-attachments/assets/f8f62d17-eb22-4557-b270-cd386734970d" />
 
 
 
