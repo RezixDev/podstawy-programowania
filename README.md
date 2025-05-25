@@ -2,7 +2,7 @@
 
 Zbiór informacji o programowaniu w języku Polskim. 
 
-Mimo, że starałem się pisać jak najwięcej sam, dzieląc się własnymi przemyśleniami i starać się zachować szczery i spójny styl, część treści jest pisane i redagowane z pomocą AI, ale ze źródłami i sprawdzeniem informacji. 
+Artykuł został napisany bez pomocy AI. 
 
 Jak znajdziesz błąd, zrób PR :) Dzięki!
 
@@ -224,7 +224,7 @@ Hammerrock - Młocia Skała
 
 Tutaj jak widzimy, z połączenia dwóch słów i powiększenia pierwszej litery orzymamy przykładowe imię dla postaci.
 Czyli naszym zadaniem jest:
-1. Znaleźć sposób, funkcję, która umożliwi nam połączenie dwóch wyrazów w jeden
+1. Znaleźć sposób, funkcję, która umożliwi nam połączenie dwóch wyrazów w jeden.
 2. Znaleźć funkcję, która zamieni naszą pierwszą literę wyrazu na wielką literę.
    
 Aby to zrobić musimy najpierw pomyśleć, jak możemy zapisać jakąś wartość w naszym programie. 
@@ -281,9 +281,21 @@ Tak więc, który sposób jest poprawny?
 
 ### Wiele dróg w programowaniu prowadzi do Rzymu.
 
+Nie ma jednego "poprawnego" sposobu. Każde rozwiązanie, którego użyjecie i działa może być poprawne. Później, w pracy zawodowej, użycie niektórych funkcji, może przynieść więcej zalet (szybsze wykonanie programu), niż użycie innej. Na początek nie przejmowałbym się tym, aż tak bardzo i starał się, żeby te programy działały i się poprawnie kompliowały :)
 
+Szukając dalej natrafimy na takie roziązanie: https://docs.vultr.com/java/standard-library/java/lang/String/concat
+I ja osobiście wybrałbym ten sposób, gdyż wydaje mi się, że dzieli on najlepiej nasze zmienne i to co mają robić od zadania i funkcji, która je łączy. 
 
+```
+String name1 = "stone";
+String name2 = " hammer!";
+String characterName = name1.concat(name2);
+System.out.println(characterName);
+```
 
+Tym sposobem udało nam się wykonać pierwszą część zadania:
+1. Znaleźć sposób, funkcję, która umożliwi nam połączenie dwóch wyrazów w jeden. ✅ 
+2. Znaleźć funkcję, która zamieni naszą pierwszą literę wyrazu na wielką literę.
 
 
 
