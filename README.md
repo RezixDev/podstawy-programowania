@@ -317,12 +317,70 @@ Ale chwila. Coś tu nie pasuje. Teraz wszystkie litery są DUŻE!
 Wielokrotnie może wam się zdarzyć, że użyjecie funkcji, która nie do końca zrobi to czego oczekujecie. Co nie jest problemem, a wręcz przeciwnie. 
 Każ∂y błąd, który popełnicie jest okazją, by się czegoś nauczyć... a nawet funkcja, która z początku wydawała się być błędna, może się okazać, że jest rozwiązaniem waszego problemu. 
 
+Szukając dalej możemy się natknąć na taki wątek na StackOverflow, który podaje nam odpowiedź na tacy:
+https://stackoverflow.com/questions/3904579/how-to-capitalize-the-first-letter-of-a-string-in-java
 
+```
+String str = "java";
+String cap = str.substring(0, 1).toUpperCase() + str.substring(1);
+```
 
+Jeżeli zamienimy naszą wartość w miejsce "str" to powinniśmy otrzymać oczekiwane przez nas rozwiązanie.
 
+```
+String name1 = "stone";
+String name2 = "hammer";
+String characterName = name1.concat(name2);
+String characterNameCapital = characterName.substring(0, 1).toUpperCase() + characterName.substring(1);
+System.out.println(characterNameCapital);
+```
 
+No spoko, ale co robi substring()? Co się tu stanęło?
 
+Wracając do naszej dokumentacji i szukając co robi klasa String: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html możemy zauważyć, że klasa ta posiada wiele funkcji, które mogą być wykorzystane by wykonwać operacje na Stringach. Znaleźć możemy przez nas wcześniej wykorzystanego concata: https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#concat-java.lang.String- ale i nowo poznanego substringa:
 
+<img width="1016" alt="image" src="https://github.com/user-attachments/assets/ac3726ff-d031-42ee-a88f-5b474d18f95a" />
+
+https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-
+https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-int-
+
+Są dwa warianty tej funkcj. Z jednym parametrem i dwoma. I w obydwu przypadkach musi być to wartość liczbowa (ze względu wykorzystania "int" w parametrze funkcj). 
+
+Patrząc na opis w dokumentacji:
+```
+Returns a string that is a substring of this string. The substring begins with the character at the specified index and extends to the end of this string.
+Examples:
+
+ "unhappy".substring(2) returns "happy"
+ "Harbison".substring(3) returns "bison"
+ "emptiness".substring(9) returns "" (an empty string)
+```
+
+Możemy zrozumieć, że posiadając pewnego stringa jak: "unhappy" i wykorzystując naszą funkcję z wartością "2" to otrzymamy wyraz "happy". Czyli nasza funkcja usuwa 2 litery z początku wyrazu. 
+
+Druga funkcja przyjmuje już dwa parametry:
+```
+Returns a string that is a substring of this string. The substring begins at the specified beginIndex and extends to the character at index endIndex - 1. Thus the length of the substring is endIndex-beginIndex.
+Examples:
+
+ "hamburger".substring(4, 8) returns "urge"
+ "smiles".substring(1, 5) returns "mile"
+```
+
+Funkcja ta "wycina" część naszego wyrazu. 
+
+Czyli posiadając te dwie funkcje, jeżeli nasza zmienna posiada wartość: "stonehammer" to możemy "wyciąć" naszą pierwszą literę wyrazu (posiadamy wtedy literę "s") powiększyć ją używając funkcji toUpperCase() (nasza litera przyjmuje wartość: "S") 
+
+```
+characterName.substring(0, 1).toUpperCase()
+```
+
+Teraz potrzebujemy jeszcze resztę wyrazu, ale bez pierwszej litery. I tu przydaje nam się funkcja z jednym parametrem, gdyż ona usuwa litery od początku, zostawiając resztę w spokoju.
+```
+characterName.substring(1)
+```
+
+Łącząc naszego stringa plusem, czyli: "S" + "tonehammer", otrzymamy : "Stonehammer". 
 
 
 
