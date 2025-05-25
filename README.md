@@ -223,6 +223,35 @@ Hammerrock - Młocia Skała
 ```
 
 Tutaj jak widzimy, z połączenia dwóch słów i powiększenia pierwszej litery orzymamy przykładowe imię dla postaci.
+Czyli naszym zadaniem jest:
+1. Znaleźć sposób, funkcję, która umożliwi nam połączenie dwóch wyrazów w jeden
+2. Znaleźć funkcję, która zamieni naszą pierwszą literę wyrazu na wielką literę.
+   
+Aby to zrobić musimy najpierw pomyśleć, jak możemy zapisać jakąś wartość w naszym programie. 
+Jeżeli nie masz kompletnie żadnej wiedzy o programowaniu, to przydałaby się jednak jakiś książka, bądź nawet film wprowadzający i tłumaczący podstawowe zagadnienia i koncepty o programowaniu. Szukanie w Googole po frazach jak: "how to save a text value in java" może was skierować na złe wyniki, bo jednak nikt nie pyta się "podstaw, podstaw".
+
+W naszym przypadku potrzebujemy zmiennej (variable), która posiada wartosć tekstową i posiada typ "tekstowy", bądź jak to niektórzy mówią "łańcuch znaków". 
+Więc zapisujemy naszą pierwszą wartość: "stone" do zmiennej.
+
+```
+String name1 = "stone";
+```
+
+Jeżeli chcecie sprawdzić, czy dobrze zdefiniwaliście  waszą wartość to możecie sobie ją pokazać w konsoli:
+```
+String name1 = "stone";
+System.out.print(name1);
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
