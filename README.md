@@ -288,7 +288,7 @@ I ja osobiście wybrałbym ten sposób, gdyż wydaje mi się, że dzieli on najl
 
 ```
 String name1 = "stone";
-String name2 = " hammer!";
+String name2 = "hammer";
 String characterName = name1.concat(name2);
 System.out.println(characterName);
 ```
@@ -296,6 +296,28 @@ System.out.println(characterName);
 Tym sposobem udało nam się wykonać pierwszą część zadania:
 1. Znaleźć sposób, funkcję, która umożliwi nam połączenie dwóch wyrazów w jeden. ✅ 
 2. Znaleźć funkcję, która zamieni naszą pierwszą literę wyrazu na wielką literę.
+
+Teraz musimy znaleźć sposób jak naszą pierwsżą literę zrobimy wielką. Szukamy: "how to make the first letter in string bigger java"
+
+Znajdujemy: https://www.geeksforgeeks.org/java-program-to-capitalize-the-first-letter-of-each-word-in-a-string/
+Ten artykuł pokazuje nam jak zrobić to samemu, ale też daje odnośnik do strony z funkcją toUpperCase(): https://www.geeksforgeeks.org/java-string-touppercase-method-with-examples/
+
+To oznacza, że dzięki funkcji "toUpperCase", będziemy w stanie zwiększyć naszą pierwszą literę. 
+
+```
+String name1 = "stone";
+String name2 = "hammer";
+String characterName = name1.concat(name2);
+String characterNameCapital = characterName.toUpperCase();
+System.out.println(characterNameCapital);
+```
+
+Ale chwila. Coś tu nie pasuje. Teraz wszystkie litery są DUŻE!
+
+Wielokrotnie może wam się zdarzyć, że użyjecie funkcji, która nie do końca zrobi to czego oczekujecie. Co nie jest problemem, a wręcz przeciwnie. 
+Każ∂y błąd, który popełnicie jest okazją, by się czegoś nauczyć... a nawet funkcja, która z początku wydawała się być błędna, może się okazać, że jest rozwiązaniem waszego problemu. 
+
+
 
 
 
