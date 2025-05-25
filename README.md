@@ -243,6 +243,47 @@ String name1 = "stone";
 System.out.print(name1);
 ```
 
+Następnie definiujemy drugą wartość:
+
+```
+String name1 = "stone";
+String name2 = "hammer";
+```
+Teraz musmy poszukać funkcji, która nam te dwa stringi połączy. Tak więc szukamy: "how to connect two strings together java"
+
+Szukając w internecie natrafimy na różne rozwiązania:
+
+Ten sposób https://www.w3schools.com/java/java_strings_concat.asp dałby nam to:
+```
+String name1 = "stone";
+String name2 = "hammer";
+System.out.println(name1.concat(name2));
+```
+Ten sposób nie ma, aż tyle sensu: https://stackoverflow.com/questions/3753869/how-do-i-concatenate-two-strings-in-java
+ale w komentarzu możemy znaleźć, że połączenie stringów możemy zrobić używając plusa ("+")
+
+```
+String name1 = "stone";
+String name2 = "hammer";
+String characterName = name1 + name2;
+System.out.println(characterName);
+```
+
+Jeszcze inny sposób poleci nam https://www.geeksforgeeks.org/java-string-concat-examples/:
+
+```
+String name1 = "stone";
+String characterName = name1.concat("hammer");
+System.out.println(characterName);
+```
+
+Tak więc, który sposób jest poprawny?
+
+### Wiele dróg w programowaniu prowadzi do Rzymu.
+
+
+
+
 
 
 
