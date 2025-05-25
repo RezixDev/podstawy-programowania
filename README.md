@@ -1,4 +1,4 @@
-# Podstawy Programowania - Meta Skille 
+# Podstawy Programowania - Poradnik dla początkujących
 
 Zbiór informacji o programowaniu w języku Polskim. 
 
