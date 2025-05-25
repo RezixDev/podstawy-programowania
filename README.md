@@ -1,8 +1,8 @@
 # Podstawy Programowania - Poradnik dla początkujących
 
-Zbiór informacji o programowaniu w języku Polskim. 
+Artykuł, który sam chętnie przyczytał, gdybym miał problemy ze zrozumieniem programowania. 
 
-Artykuł został napisany bez pomocy AI. 
+PS: Artykuł został napisany bez pomocy AI. 
 
 Jak znajdziesz błąd, zrób PR :) Dzięki!
 
