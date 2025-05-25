@@ -382,6 +382,13 @@ characterName.substring(1)
 
 Łącząc naszego stringa plusem, czyli: "S" + "tonehammer", otrzymamy : "Stonehammer". 
 
+1. Znaleźć sposób, funkcję, która umożliwi nam połączenie dwóch wyrazów w jeden. ✅ 
+2. Znaleźć funkcję, która zamieni naszą pierwszą literę wyrazu na wielką literę. ✅
+
+Druga część zadania wykonana. 
+
+Teraz musimy pomyśleć, jak zapisać więcej zmiennych (w tym przypadku naszych Stringów) w pewnego rodzaju pudełku (kontenerze) i tak jakbyśmy na różnych kartkach papieru zapisali nasze nazwy bohaterów i je losowali i łączyli. Jak możemy to przedstawić w formie kodu?
+
 
 
 
