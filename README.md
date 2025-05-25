@@ -387,6 +387,24 @@ characterName.substring(1)
 
 Druga część zadania wykonana. 
 
+### Odwzorowanie konceptów w świecie realnym
+
+Jeżeli chcielibyście z pewnej puli nazw stworzyć nowe nazwy w sposób losowy, to jak byście to zrobili?
+
+W naszym przypadku wzięlibyśmy każdą frazę i zapisali je na oddzielnych karteczkach: "hammer", "stone", "rock", "fist", "strength". Następnie te karteczi złożyli i wrzucili do słoika. Następnie byśmy wyciągneli dwie z nich i one by były odwzorowaniem naszego imienia. 
+
+Ale jak odwzorować metaforyczny słoik w naszym programie?
+
+Dodajecie 
+
+
+
+
+
+
+
+
+
 Teraz musimy pomyśleć, jak zapisać więcej zmiennych (w tym przypadku naszych Stringów) w pewnego rodzaju pudełku (kontenerze) i tak jakbyśmy na różnych kartkach papieru zapisali nasze nazwy bohaterów i je losowali i łączyli. Jak możemy to przedstawić w formie kodu?
 
 
